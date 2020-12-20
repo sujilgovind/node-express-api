@@ -3,6 +3,7 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
+const favicon = require("serve-favicon");
 
 const app = express();
 
@@ -30,6 +31,9 @@ app.use(morgan("common"));
 app.use(helmet());
 app.use(cors(corsOptions));
 app.use(limiter); //  apply to all requests
+
+// Serve Favicon
+app.use(favicon('favicon.ico'));
 
 // Port
 const port = 4001;
