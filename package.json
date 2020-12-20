@@ -4,13 +4,21 @@
   "description": "An api for demonstrating express middleware",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Sujil",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
