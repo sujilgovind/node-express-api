@@ -11,7 +11,7 @@ A nodejs express setup for demonstrating commonly used middlewares.
 Clone the repo and install the dependencies.
 
 ```bash
-git repo clone sujilgovind/node-express-api
+git repo clone https://github.com/sujilgovind/node-express-api.git
 cd node-express-api
 ```
 
