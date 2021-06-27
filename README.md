@@ -1,6 +1,6 @@
 # node-express-api
 
-A nodejs express setup for demonstrating commonly used middlewares.
+A nodejs express setup for demonstrating commonly used middleware(s).
 - morgan
 - helmet
 - cors
